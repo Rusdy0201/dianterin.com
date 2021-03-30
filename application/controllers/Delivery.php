@@ -41,12 +41,7 @@ class Delivery extends CI_Controller
 
     private function _process()
     {
-        $radio_is_checked = $this->input->post('radio1') === 'this';
-        
-       if (form_radio($radio_is_checked == true))
-       {
-           
-       }
+       
         $data = 
         [
             'receiver' => $this->input->post('nm_penerima',true),
